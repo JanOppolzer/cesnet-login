@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/forms";
+
+@theme {
+  --color-cesnetblue: #0068a2;
+  --color-freshblue: #00a1de;
+  --color-darkgrey: #5a5a5a;
+  --color-lightgrey: #aaaaaa;
+}
+
+[x-cloak] {
+  display: none !important;
+}
